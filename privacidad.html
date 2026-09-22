@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Mis Finanzas</title>
+<style>
+  :root{--fondo:#121512;--tarjeta:#1A1E1A;--borde:#2A2F2A;
+        --texto:#E8EDE6;--suave:#A3AFA0;--acento:#BEF264}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fondo);color:var(--texto);
+       font-family:"Segoe UI",system-ui,-apple-system,sans-serif;line-height:1.7}
+  .caja{max-width:720px;margin:0 auto;padding:48px 20px 80px}
+  h1{font-size:28px;margin:0 0 6px}
+  .fecha{color:var(--suave);font-size:14px;margin:0 0 32px}
+  h2{font-size:19px;margin:32px 0 10px}
+  ul{padding-left:20px}
+  li{margin:6px 0}
+  a{color:var(--acento)}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:15px}
+  th,td{border:1px solid var(--borde);padding:10px;text-align:left;vertical-align:top}
+  th{background:var(--tarjeta)}
+  footer{color:var(--suave);font-size:14px;margin-top:48px;border-top:1px solid var(--borde);padding-top:20px}
+</style>
+</head>
+<body>
+<div class="caja">
+  <h1>Política de privacidad</h1>
+  <p class="fecha">Aplicación <strong>Mis Finanzas</strong> · Vigente desde el 22 de septiembre de 2026</p>
+
+  <p>Esta política explica qué datos recoge la aplicación Mis Finanzas, para qué se usan y qué
+  puedes hacer con ellos. Está escrita en lenguaje sencillo, a propósito.</p>
+
+  <h2>Quién es responsable de tus datos</h2>
+  <p>Alex Moron Campos, desarrollador de la aplicación, con domicilio en Bolivia.
+  Contacto: <a href="mailto:CORREO_DE_CONTACTO">CORREO_DE_CONTACTO</a></p>
+
+  <h2>Qué datos recogemos</h2>
+  <table>
+    <tr><th>Dato</th><th>Para qué</th></tr>
+    <tr><td>Correo electrónico</td><td>Crear tu cuenta, verificarla y permitirte recuperar la contraseña.</td></tr>
+    <tr><td>Nombre</td><td>Saludarte dentro de la app.</td></tr>
+    <tr><td>Contraseña</td><td>Proteger tu cuenta. Se guarda cifrada y nadie, ni el desarrollador, puede verla.</td></tr>
+    <tr><td>Movimientos que tú registras: ingresos, gastos, ahorro, diezmo, con fecha, categoría, monto y notas</td><td>Es el contenido de la app: calcular tus resúmenes y gráficos.</td></tr>
+    <tr><td>Metas de ahorro y préstamos que tú registras</td><td>Mostrarte tu avance y las fechas de vencimiento.</td></tr>
+    <tr><td>Tu sueldo y límites configurados en Ajustes</td><td>Calcular el diezmo y avisarte cuando te pasas de tu límite.</td></tr>
+  </table>
+
+  <h2>Qué NO hacemos</h2>
+  <ul>
+    <li><strong>No vendemos tus datos</strong> a nadie, en ninguna circunstancia.</li>
+    <li><strong>No mostramos publicidad</strong> dentro de la app.</li>
+    <li><strong>No usamos rastreadores</strong> ni herramientas de analítica de terceros.</li>
+    <li><strong>No nos conectamos a tu banco</strong> ni a tus tarjetas. Todo lo registras tú a mano.</li>
+    <li>No pedimos tu ubicación, tus contactos, tus fotos ni tu cámara.</li>
+  </ul>
+
+  <h2>Dónde se guardan</h2>
+  <p>Tus datos se guardan en <strong>Supabase</strong>, un servicio de base de datos alojado en
+  servidores de América del Sur (São Paulo, Brasil). La información viaja cifrada entre tu teléfono
+  y el servidor.</p>
+  <p>La aplicación aplica reglas de seguridad a nivel de base de datos (<em>Row Level Security</em>),
+  de modo que <strong>cada usuario solo puede leer y modificar sus propios datos</strong>.</p>
+  <p>Tu teléfono también guarda una copia local de tus movimientos para que la app funcione sin
+  internet. Esa copia vive dentro del espacio privado de la aplicación y se borra al desinstalarla.</p>
+
+  <h2>Con quién compartimos</h2>
+  <p>Solo con los proveedores necesarios para que la app funcione:</p>
+  <ul>
+    <li><strong>Supabase</strong>: base de datos y sistema de cuentas.</li>
+    <li><strong>Proveedor de correo</strong>: envía únicamente los correos de verificación de cuenta y de recuperación de contraseña.</li>
+  </ul>
+  <p>También podríamos entregar información si una autoridad competente lo exige por una orden legal válida.</p>
+
+  <h2>Cuánto tiempo los guardamos</h2>
+  <p>Mientras tengas la cuenta activa. Si eliminas tu cuenta, borramos tus datos de nuestros
+  servidores, sin copias de respaldo que los conserven.</p>
+
+  <h2>Tus derechos</h2>
+  <ul>
+    <li><strong>Ver y corregir</strong> tus datos: desde la propia app, en cualquier momento.</li>
+    <li><strong>Llevártelos</strong>: en Ajustes puedes exportar todos tus movimientos en un archivo CSV.</li>
+    <li><strong>Eliminar tu cuenta y todos tus datos</strong>: desde Ajustes, dentro de la app.
+      También puedes pedirlo por correo. Ver <a href="eliminar-cuenta.html">cómo eliminar tu cuenta</a>.</li>
+  </ul>
+
+  <h2>Menores de edad</h2>
+  <p>La aplicación no está dirigida a menores de 13 años, y no recogemos datos de forma
+  consciente de personas de esa edad.</p>
+
+  <h2>Seguridad</h2>
+  <p>Usamos conexiones cifradas, contraseñas con cifrado de un solo sentido y reglas que aíslan
+  los datos de cada usuario. Ningún sistema es infalible: si ocurre un incidente que afecte tus
+  datos, te lo informaremos por correo.</p>
+
+  <h2>Cambios a esta política</h2>
+  <p>Si cambiamos algo importante, actualizaremos la fecha de arriba y te avisaremos dentro de la
+  aplicación antes de que el cambio entre en vigor.</p>
+
+  <h2>Contacto</h2>
+  <p>Dudas o reclamos sobre tus datos: <a href="mailto:CORREO_DE_CONTACTO">CORREO_DE_CONTACTO</a></p>
+
+  <footer><a href="index.html">← Volver al inicio</a></footer>
+</div>
+</body>
+</html>
