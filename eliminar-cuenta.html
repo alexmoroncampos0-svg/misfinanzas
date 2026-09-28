@@ -10,7 +10,10 @@
   *{box-sizing:border-box}
   body{margin:0;background:var(--fondo);color:var(--texto);
        font-family:"Segoe UI",system-ui,-apple-system,sans-serif;line-height:1.7}
-  .caja{max-width:720px;margin:0 auto;padding:48px 20px 80px}
+  .caja{max-width:720px;margin:0 auto;padding:32px 20px 80px}
+  .idiomas{display:flex;gap:14px;justify-content:flex-end;font-size:14px;margin-bottom:24px}
+  .idiomas a{color:var(--suave)}
+  .idiomas strong{color:var(--texto)}
   h1{font-size:28px;margin:0 0 24px}
   h2{font-size:19px;margin:32px 0 10px}
   ol,ul{padding-left:22px}
@@ -23,6 +26,7 @@
 </head>
 <body>
 <div class="caja">
+  <nav class="idiomas"><strong>Español</strong><a href="excluir-conta.html" hreflang="pt">Português</a><a href="delete-account.html" hreflang="en">English</a></nav>
   <h1>Eliminar mi cuenta y mis datos</h1>
 
   <p>Puedes borrar tu cuenta de <strong>Mis Finanzas</strong> cuando quieras, sin pedir permiso
@@ -32,7 +36,7 @@
   <ol>
     <li>Abre Mis Finanzas e inicia sesión.</li>
     <li>Entra a <strong>Ajustes</strong>.</li>
-    <li>Elige <strong>Eliminar cuenta</strong> y confirma.</li>
+    <li>Baja hasta <strong>Mi cuenta</strong>, toca <strong>Eliminar mi cuenta</strong> y confirma.</li>
   </ol>
   <p>El borrado es inmediato.</p>
 
@@ -40,18 +44,18 @@
   <p>Si ya no tienes la app instalada, escribe a
   <a href="mailto:misfinanzas.bo@gmail.com">misfinanzas.bo@gmail.com</a>
   <strong>desde el mismo correo con el que te registraste</strong>, pidiendo eliminar tu cuenta.
-  Respondemos en un plazo máximo de 30 días.</p>
+  Respondemos en un plazo máximo de 15 días.</p>
 
   <div class="aviso">
     <h2 style="margin-top:0">Qué se borra</h2>
     <ul>
       <li>Tu cuenta y tu correo.</li>
       <li>Todos tus movimientos: ingresos, gastos, ahorro y diezmo.</li>
-      <li>Tus metas de ahorro y tus préstamos registrados.</li>
-      <li>Tu configuración: sueldo y límites.</li>
+      <li>Tus metas de ahorro, tus préstamos y tus hábitos registrados.</li>
+      <li>Tu configuración: sueldo, país, moneda y límites.</li>
     </ul>
     <p><strong>No se conserva nada</strong> después del borrado, y la acción no se puede deshacer.</p>
-    <p>Si quieres guardar tu historial antes de borrar, entra a <strong>Ajustes → Exportar CSV</strong>
+    <p>Si quieres guardar tu historial antes de borrar, entra a <strong>Ajustes → Exportar movimientos y préstamos (CSV)</strong>
     y guarda el archivo en tu teléfono.</p>
   </div>
 

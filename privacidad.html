@@ -1,16 +1,22 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Política de privacidad · Mis Finanzas</title>
+<link rel="alternate" hreflang="es" href="privacidad.html">
+<link rel="alternate" hreflang="pt" href="privacidade.html">
+<link rel="alternate" hreflang="en" href="privacy.html">
 <style>
   :root{--fondo:#121512;--tarjeta:#1A1E1A;--borde:#2A2F2A;
         --texto:#E8EDE6;--suave:#A3AFA0;--acento:#BEF264}
   *{box-sizing:border-box}
   body{margin:0;background:var(--fondo);color:var(--texto);
        font-family:"Segoe UI",system-ui,-apple-system,sans-serif;line-height:1.7}
-  .caja{max-width:720px;margin:0 auto;padding:48px 20px 80px}
+  .caja{max-width:720px;margin:0 auto;padding:32px 20px 80px}
+  .idiomas{display:flex;gap:14px;justify-content:flex-end;font-size:14px;margin-bottom:24px}
+  .idiomas a{color:var(--suave)}
+  .idiomas strong{color:var(--texto)}
   h1{font-size:28px;margin:0 0 6px}
   .fecha{color:var(--suave);font-size:14px;margin:0 0 32px}
   h2{font-size:19px;margin:32px 0 10px}
@@ -25,8 +31,10 @@
 </head>
 <body>
 <div class="caja">
+  <nav class="idiomas"><strong>Español</strong><a href="privacidade.html" hreflang="pt">Português</a><a href="privacy.html" hreflang="en">English</a></nav>
+
   <h1>Política de privacidad</h1>
-  <p class="fecha">Aplicación <strong>Mis Finanzas</strong> · Vigente desde el 22 de septiembre de 2026</p>
+  <p class="fecha">Aplicación <strong>Mis Finanzas</strong> · Vigente desde el 27 de septiembre de 2026</p>
 
   <p>Esta política explica qué datos recoge la aplicación Mis Finanzas, para qué se usan y qué
   puedes hacer con ellos. Está escrita en lenguaje sencillo, a propósito.</p>
@@ -42,15 +50,41 @@
     <tr><td>Nombre</td><td>Saludarte dentro de la app.</td></tr>
     <tr><td>Contraseña</td><td>Proteger tu cuenta. Se guarda cifrada y nadie, ni el desarrollador, puede verla.</td></tr>
     <tr><td>Movimientos que tú registras: ingresos, gastos, ahorro, diezmo, con fecha, categoría, monto y notas</td><td>Es el contenido de la app: calcular tus resúmenes y gráficos.</td></tr>
-    <tr><td>Metas de ahorro y préstamos que tú registras</td><td>Mostrarte tu avance y las fechas de vencimiento.</td></tr>
-    <tr><td>Tu sueldo y límites configurados en Ajustes</td><td>Calcular el diezmo y avisarte cuando te pasas de tu límite.</td></tr>
+    <tr><td>Metas de ahorro, préstamos y hábitos que tú registras</td><td>Mostrarte tu avance, tus rachas y las fechas de vencimiento.</td></tr>
+    <tr><td>Tu sueldo, país, moneda y límites configurados en Ajustes</td><td>Mostrar los montos en tu moneda, calcular el diezmo y avisarte cuando te pasas de tu límite.</td></tr>
+    <tr><td>Estado de tu suscripción Pro</td><td>Saber si debes ver anuncios o no. Ver «Compras» más abajo.</td></tr>
   </table>
+
+  <h2>Publicidad</h2>
+  <p>La versión gratuita muestra un anuncio pequeño en la parte de abajo de la pantalla. Los anuncios
+  los sirve <strong>Google AdMob</strong>. Para mostrarlos y medir si funcionan, Google puede recoger
+  del teléfono el <strong>identificador de publicidad</strong>, la dirección IP, datos del dispositivo
+  (modelo, sistema, idioma) y cómo interactúas con los anuncios.</p>
+  <ul>
+    <li><strong>Tus datos financieros nunca se comparten con los anunciantes</strong>: Google no recibe tus movimientos, montos, préstamos ni hábitos.</li>
+    <li>Donde la ley lo exige, la app te pide permiso antes de mostrar anuncios personalizados, y puedes cambiar tu decisión desde <strong>Ajustes → Privacidad de los anuncios</strong>.</li>
+    <li>Puedes restablecer o borrar tu identificador de publicidad en los ajustes de Android (Google → Anuncios).</li>
+    <li>Con la suscripción <strong>Pro</strong> no se muestran anuncios ni se cargan.</li>
+  </ul>
+  <p>Más información sobre cómo usa Google estos datos:
+  <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a></p>
+
+  <h2>Compras</h2>
+  <p>La suscripción Pro se paga a través de <strong>Google Play</strong>. Nosotros nunca vemos ni guardamos
+  los datos de tu tarjeta. Para comprobar que la compra es válida y activarla en tu cuenta usamos
+  <strong>RevenueCat</strong>, que recibe de Google Play el producto comprado, las fechas y el estado de
+  la suscripción, junto con el identificador interno de tu cuenta (no tu correo ni tu nombre).</p>
+
+  <h2>Recordatorios</h2>
+  <p>Si registras un préstamo con fecha de vencimiento, la app programa en tu teléfono avisos para
+  el día anterior y el día del vencimiento. Esos avisos se crean y se guardan <strong>solo en tu
+  teléfono</strong>; no se envían a ningún servidor. Puedes desactivarlos en los ajustes de notificaciones
+  de Android.</p>
 
   <h2>Qué NO hacemos</h2>
   <ul>
     <li><strong>No vendemos tus datos</strong> a nadie, en ninguna circunstancia.</li>
-    <li><strong>No mostramos publicidad</strong> dentro de la app.</li>
-    <li><strong>No usamos rastreadores</strong> ni herramientas de analítica de terceros.</li>
+    <li><strong>No usamos herramientas de analítica</strong> para seguir lo que haces dentro de la app.</li>
     <li><strong>No nos conectamos a tu banco</strong> ni a tus tarjetas. Todo lo registras tú a mano.</li>
     <li>No pedimos tu ubicación, tus contactos, tus fotos ni tu cámara.</li>
   </ul>
@@ -67,22 +101,31 @@
   <h2>Con quién compartimos</h2>
   <p>Solo con los proveedores necesarios para que la app funcione:</p>
   <ul>
-    <li><strong>Supabase</strong>: base de datos y sistema de cuentas.</li>
+    <li><strong>Supabase</strong>: base de datos y sistema de cuentas (servidores en Brasil).</li>
     <li><strong>Proveedor de correo</strong>: envía únicamente los correos de verificación de cuenta y de recuperación de contraseña.</li>
+    <li><strong>Google (AdMob y Google Play)</strong>: anuncios de la versión gratuita y cobro de la suscripción.</li>
+    <li><strong>RevenueCat</strong>: verificación de las compras.</li>
   </ul>
-  <p>También podríamos entregar información si una autoridad competente lo exige por una orden legal válida.</p>
+  <p>Google y RevenueCat pueden tratar datos en Estados Unidos u otros países, con sus propias medidas
+  de protección. También podríamos entregar información si una autoridad competente lo exige por una
+  orden legal válida.</p>
 
   <h2>Cuánto tiempo los guardamos</h2>
   <p>Mientras tengas la cuenta activa. Si eliminas tu cuenta, borramos tus datos de nuestros
-  servidores, sin copias de respaldo que los conserven.</p>
+  servidores, sin copias de respaldo que los conserven. Los registros de compra que guardan Google
+  Play y RevenueCat se rigen por sus propias obligaciones legales y contables.</p>
 
   <h2>Tus derechos</h2>
   <ul>
     <li><strong>Ver y corregir</strong> tus datos: desde la propia app, en cualquier momento.</li>
-    <li><strong>Llevártelos</strong>: en Ajustes puedes exportar todos tus movimientos en un archivo CSV.</li>
+    <li><strong>Llevártelos</strong>: en Ajustes puedes exportar tus movimientos y préstamos en un archivo CSV.</li>
     <li><strong>Eliminar tu cuenta y todos tus datos</strong>: desde Ajustes, dentro de la app.
       También puedes pedirlo por correo. Ver <a href="eliminar-cuenta.html">cómo eliminar tu cuenta</a>.</li>
+    <li><strong>Retirar tu consentimiento</strong> para anuncios personalizados, cuando se te haya pedido.</li>
+    <li>Pedirnos información sobre con quién compartimos tus datos, o presentar un reclamo ante la
+      autoridad de protección de datos de tu país.</li>
   </ul>
+  <p>Para cualquiera de estos pedidos, escríbenos; respondemos en un máximo de 15 días.</p>
 
   <h2>Menores de edad</h2>
   <p>La aplicación no está dirigida a menores de 13 años, y no recogemos datos de forma
